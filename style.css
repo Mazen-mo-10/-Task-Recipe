@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: 300px;
+  background-color: hsl(30, 18%, 87%);
+}
+.all {
+  background-color: hsl(0, 0%, 100%);
+  margin: 5%;
+  padding: 2rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 15px;
+}
+header img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+}
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.time {
+  background-color: hsl(330, 100%, 98%);
+  margin: 20px 0;
+  line-height: 1.8;
+  padding: 20px;
+}
+.sec-title {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+}
+.fis-list {
+  margin-left: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.fis-list li {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+.fis-list li::before {
+  content: "•";
+  color: hsl(332, 51%, 32%);
+  margin-right: 20px;
+  font-size: 20px;
+}
+.th-title {
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 20px;
+}
+.sec-list {
+  margin-left: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.sec-list li {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+.sec-list li::before {
+  content: "•";
+  color: hsl(14, 45%, 36%);
+  margin-right: 20px;
+  font-size: 20px;
+}
+.aside {
+  border-top: 1px solid #ccc;
+}
+.fr-title {
+  color: hsl(14, 45%, 36%);
+  margin: 20px 0;
+}
+.frs-olist {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.frs-olist li::marker {
+  color: hsl(14, 45%, 36%);
+}
+.frs-olist li {
+  padding-left: 10px;
+}
+
+.end {
+  border-top: 1px solid #ccc;
+}
+.last-title {
+  margin: 20px 0;
+  color: hsl(14, 45%, 36%);
+}
+/*table*/
+.nutrition-table {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+.nutrition-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.nutrition-table th,
+.nutrition-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.nutrition-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+.nutrition-table td {
+  font-size: 16px;
+  color: #333;
+}
+.nutrition-table .highlight {
+  color: #b44c3c;
+  font-weight: bold;
+}
+.nutrition-table td:last-child,
+.nutrition-table tr:last-child td {
+  border-bottom: none;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 10px 0;
+}
